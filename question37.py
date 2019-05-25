@@ -16,4 +16,5 @@ x = str(z)
 if x[0:] == x[::-1]:
     print("{} is a palindrome".format(x))
 else:
-    print("{} is a not palindrome".format(x))
+    n = int(input("enter a number "))
+    z = rev_number(n)
